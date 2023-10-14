@@ -16,6 +16,7 @@
 // File hello.c
 int main() {
     printf("hello\n");
+    printf("jawaban ini");
 
     return 0;
 }
