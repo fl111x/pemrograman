@@ -6,4 +6,9 @@ set(CMAKE_C_STANDARD 11)
 add_library(pertemuan1 library.c
         hello.c
         hello1.c
+        asign.c
+        asign.c
+        asgdll.c
+        asgdll.c
+        limit.c
 )
