@@ -35,27 +35,26 @@ int main()
     printf("Masukkan nilai umur nonStaff: ");
     scanf("%d", &umurNonStaff);
 
-    if(Staff > lamaBekerja && umurStaff > 50) {
+    if(Staff >= lamaBekerja && umurStaff >= 50) {
         printf("\n\n(Staff) Anda mendapatkan Bonus sebesar Rp.1.000.000\n\n");
     
     } else if(Staff < lamaBekerja) {
-        if (umurStaff < 50) {
-            printf("\n\n(Staff) Anda mendapatkan Bonus sebesar Rp.300.000\n\n");
-        } else {
-            printf("\n\n(Staff) Anda mendapatkan Bonus sebesar Rp.500.000\n\n");
-        }
+        printf("(Staff) Anda mendapatkan Bonus sebesar Rp.500.000\n\n");
+
+    } else if(umurStaff < 50) {
+        printf("(Staff) Anda mendapatkan Bonus sebesar Rp.300.000\n\n");
+    }
+
+
+    if(nonStaff > lamaBekerja) {
+        printf("(nonStaff) Anda mendapatkan Bonus sebesar Rp.400.000\n\n");
+    
+    } else if(umurNonStaff < 50) {
+        printf("(nonStaff) Anda mendapatkan Bonus Rp.250.000\n\n");
     }
     
-    if(nonStaff > lamaBekerja && umurNonStaff > 50) {
-        printf("(nonStaff) And mendapatkan Bonus sebesar Rp.400.000\n\n");
 
-    } else if(nonStaff > lamaBekerja) {
-        if (umurNonStaff < 50) {
-            printf("(nonStaff) Anda mendapatkan Bonus sebesar Rp.250.000\n\n");
-        } else {
-            printf("(nonStaff) tidak ada data");
-        }
-    } else {
+    else {
         printf("Error\n\n");
     }
 
