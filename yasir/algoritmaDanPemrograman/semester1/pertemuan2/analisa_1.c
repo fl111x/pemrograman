@@ -15,7 +15,6 @@ int main() {
     int a, b;
 
     /* ALGORITMA */
-    Clrscr();
     printf("Masukan a: ");
     scanf("%d", &a);
 

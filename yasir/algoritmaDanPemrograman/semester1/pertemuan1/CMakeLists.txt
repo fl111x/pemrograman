@@ -11,4 +11,5 @@ add_library(pertemuan1 library.c
         asgdll.c
         asgdll.c
         limit.c
+        operator_and_ekspresi/operator.c
 )

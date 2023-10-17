@@ -55,7 +55,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -78,7 +79,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -118,6 +120,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "limit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "operator_and_ekspresi/operator.c",
 			"sourceGroupIndex" : 0
 		}
 	],
