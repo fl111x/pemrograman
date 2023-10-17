@@ -1,15 +1,10 @@
-//
-// Created by myasi on 10/15/2023.
-//
-
 /*
- * PROGRAM: segitiga.c
- * Author: Muhamad Yasir Noval
- * NIM: 2350081004
- * Class: A
- * Description: menetukan sebuah bentuk segitiga dari tiga buah masukan bilangan bulat,
- * dengan bilangan bulat tidak negatif
- */
+    Program: gaji_pokok_2.c
+    Author: 2350081004/Muhamad Yasir Noval
+    Date: 17 Oktober 2023
+    Description: Tugas untuk menentukan sebuah segitiga dapat
+    dibentuk dengan menerima tiga buah bilangan bulat
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
