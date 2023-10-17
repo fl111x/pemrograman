@@ -10,7 +10,7 @@
 int main()
 {
     // Kamus
-    long gatot, gapok, tjAnak1, tjAnak2, tjAnak3, tjGol;
+    long gatot, gapok, tjAnak1, tjAnak2, tjAnak22, tjAnak3, tjAnak32, tjAnak33, tjGol;
     int Anak, Gol, tjMk, UsiaAnak1, UsiaAnak2, UsiaAnak3;
 
     // Algoritma
@@ -62,16 +62,15 @@ int main()
             tjAnak1 = 1 * 700000;
             printf("\n\nTunjangan Anak1: Rp.%d\n\n", tjAnak1);
         
-        }
-        else {
+        } else {
             tjAnak1 = 0;
-            printf("Anak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
+            printf("\n\nAnak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
         }
 
         // Hasil Gatot
 
         gatot = gapok + tjAnak1 + tjGol + tjMk ;
-        printf("Gaji Total: Rp.%d\n\n", gatot);
+        printf("Gaji Total: Rp.%ld\n\n", gatot);
     }
     
     else if(Anak == 2) {
@@ -85,23 +84,24 @@ int main()
             tjAnak2 = 1 * 700000;
             printf("\n\nTunjangan Anak1: Rp.%d\n\n", tjAnak2);
         
+        } else {
+            tjAnak2 = 0;
+            printf("\n\nAnak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
         }
         
         if(UsiaAnak2 <= 17) {
-            tjAnak2 = 1 * 700000;
-            printf("Tunjangan Anak2: Rp.%d\n\n", tjAnak2);
+            tjAnak22 = 1 * 700000;
+            printf("Tunjangan Anak2: Rp.%d\n\n", tjAnak22);
         
-        }
-
-        else {
-            tjAnak2 = 0;
-            printf("Anak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
+        } else {
+            tjAnak22 = 0;
+            printf("\n\nAnak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
         }
 
         // Hasil Gatot
 
-        gatot = gapok + tjAnak2 + tjGol + tjMk ;
-        printf("Gaji Total: Rp.%d\n\n", gatot);
+        gatot = gapok + tjAnak2 + tjAnak22+ tjGol + tjMk ;
+        printf("Gaji Total: Rp.%ld\n\n", gatot);
     }
 
     else if(Anak == 3) {
@@ -118,29 +118,41 @@ int main()
             tjAnak3 = 1 * 700000;
             printf("\n\nTunjangan Anak1: Rp.%d\n\n", tjAnak3);
         
-        }
-        
-        if(UsiaAnak2 <= 17) {
-            tjAnak3 = 1 * 700000;
-            printf("Tunjangan Anak2: Rp.%d\n\n", tjAnak3);
-        
-        }
-        
-        if(UsiaAnak3 <= 17) {
-            tjAnak3 = 1 * 700000;
-            printf("Tunjangan Anak3: Rp.%d\n\n", tjAnak3);
-        
-        }
-        
-        else {
+        } else {
             tjAnak3 = 0;
             printf("Anak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
         }
+        
+        if(UsiaAnak2 <= 17) {
+            tjAnak32 = 1 * 700000;
+            printf("Tunjangan Anak2: Rp.%d\n\n", tjAnak32);
+        
+        } else {
+            tjAnak32 = 0;
+            printf("Anak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
+        }
+        
+        if(UsiaAnak3 <= 17) {
+            tjAnak33 = 1 * 700000;
+            printf("Tunjangan Anak3: Rp.%d\n\n", tjAnak33);
+        
+        } else {
+            tjAnak33 = 0;
+            printf("Anak yang lebih umur-nya dari 17 tidak dapat tunjangan\n\n");
+        }
+        
+
+        // Hasil Gatot
+
+        gatot = gapok + tjAnak3 + tjAnak32+  tjAnak33+ tjGol + tjMk ;
+        printf("Gaji Total: Rp.%ld\n\n", gatot);
 
     } else {
-        // tjAnak1 = 3 * 700000;
-        // printf("Tunjangan Anak: Rp.%d\n\n", tjAnak1);
-        printf("Gagal");
+        printf("Batas jumlah anak adalah 3 anak, lebih dari itu tidak akan mendapat tunjangan.\n\n");
+
+        // Hasil Gatot
+        gatot = gapok + tjGol + tjMk ;
+        printf("Gaji Total: Rp.%ld\n\n", gatot);
     }
 
     return 0;
