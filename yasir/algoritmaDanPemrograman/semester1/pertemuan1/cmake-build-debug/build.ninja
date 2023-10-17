@@ -67,6 +67,24 @@ build CMakeFiles/pertemuan1.dir/hello1.c.obj: C_COMPILER__pertemuan1_unscanned_D
   OBJECT_DIR = CMakeFiles\pertemuan1.dir
   OBJECT_FILE_DIR = CMakeFiles\pertemuan1.dir
 
+build CMakeFiles/pertemuan1.dir/asign.c.obj: C_COMPILER__pertemuan1_unscanned_Debug E$:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan1/asign.c || cmake_object_order_depends_target_pertemuan1
+  DEP_FILE = CMakeFiles\pertemuan1.dir\asign.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pertemuan1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pertemuan1.dir
+
+build CMakeFiles/pertemuan1.dir/asgdll.c.obj: C_COMPILER__pertemuan1_unscanned_Debug E$:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan1/asgdll.c || cmake_object_order_depends_target_pertemuan1
+  DEP_FILE = CMakeFiles\pertemuan1.dir\asgdll.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pertemuan1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pertemuan1.dir
+
+build CMakeFiles/pertemuan1.dir/limit.c.obj: C_COMPILER__pertemuan1_unscanned_Debug E$:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan1/limit.c || cmake_object_order_depends_target_pertemuan1
+  DEP_FILE = CMakeFiles\pertemuan1.dir\limit.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pertemuan1.dir
+  OBJECT_FILE_DIR = CMakeFiles\pertemuan1.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target pertemuan1
@@ -75,7 +93,7 @@ build CMakeFiles/pertemuan1.dir/hello1.c.obj: C_COMPILER__pertemuan1_unscanned_D
 #############################################
 # Link the static library libpertemuan1.a
 
-build libpertemuan1.a: C_STATIC_LIBRARY_LINKER__pertemuan1_Debug CMakeFiles/pertemuan1.dir/library.c.obj CMakeFiles/pertemuan1.dir/hello.c.obj CMakeFiles/pertemuan1.dir/hello1.c.obj
+build libpertemuan1.a: C_STATIC_LIBRARY_LINKER__pertemuan1_Debug CMakeFiles/pertemuan1.dir/library.c.obj CMakeFiles/pertemuan1.dir/hello.c.obj CMakeFiles/pertemuan1.dir/hello1.c.obj CMakeFiles/pertemuan1.dir/asign.c.obj CMakeFiles/pertemuan1.dir/asgdll.c.obj CMakeFiles/pertemuan1.dir/limit.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\pertemuan1.dir
   POST_BUILD = cd .

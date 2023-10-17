@@ -15,7 +15,7 @@
 
 // File: hello1.c
 // menuliskan hello ke layar
-// pola ini merupakan standard yang dipakai di kelas
+// pola ini merupakan standard yang dipakai di kelas di kelas
 int main() {
     /* KAMUS */
 
