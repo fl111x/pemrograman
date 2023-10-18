@@ -46,7 +46,7 @@ int main() {
     // menentukan masa kerja yang diinputkan
     if (mk < 5) {
         tjMk = 500000;
-    } else if (mk <= 5 && mk < 10) {
+    } else if (mk >= 5 && mk < 10) {
         tjMk = 1000000;
     } else {
         tjMk = 2000000;
@@ -54,7 +54,8 @@ int main() {
 
     gaTot = gaPok + tjAnak + tjGol + tjMk;
 
-    printf("Gaji Total Rp.%ld", gaTot);
+    printf("Gaji Total = Rp.%ld + Rp.%ld + Rp.%ld + Rp.%ld\n", gaPok, tjAnak, tjGol, tjMk);
+    printf("Gaji Total = Rp.%ld", gaTot);
 
     return 0;
 }

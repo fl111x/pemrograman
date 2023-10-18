@@ -50,7 +50,10 @@ int main() {
         } else {
             tjAnak3 = 0;
         }
+
         tjAnak = tjAnak1 + tjAnak2 + tjAnak3;
+
+        printf("Tunjangan Anak = Rp.%ld + Rp.%ld + Rp.%ld = Rp.%ld\n", tjAnak1, tjAnak2, tjAnak3, tjAnak);
     } else if (anak == 2) {
         printf("Input Usia Anak pertama: ");
         scanf("%d", &usiaAnak1);
@@ -69,7 +72,10 @@ int main() {
         } else {
             tjAnak2 = 0;
         }
+
         tjAnak = tjAnak1 + tjAnak2;
+
+        printf("Tunjangan Anak = Rp.%ld + Rp.%ld = Rp.%ld\n", tjAnak1, tjAnak2, tjAnak);
     } else if (anak == 1) {
         printf("Input Usia Anak pertama: ");
         scanf("%d", &usiaAnak1);
@@ -80,7 +86,10 @@ int main() {
         } else {
             tjAnak1 = 0;
         }
+
         tjAnak = tjAnak1;
+
+        printf("Tunjangan Anak = Rp.%ld = Rp.%ld\n", tjAnak1, tjAnak);
     } else {
         tjAnak = 3 * 700000;
     }
@@ -112,6 +121,7 @@ int main() {
     // menghitung gaji total
     gaTot = gaPok + tjAnak + tjGol + tjMk;
 
+    printf("Gaji Total = Rp.%ld + Rp.%ld + Rp.%ld + Rp.%ld\n", gaPok, tjAnak, tjGol, tjMk);
     printf("Gaji Total Rp.%ld", gaTot);
 
     return 0;
