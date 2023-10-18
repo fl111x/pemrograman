@@ -1,7 +1,8 @@
 # ninja log v5
 4	759	7190598399158781	CMakeFiles/pertemuan2.dir/segitiga.c.obj	8a30df35dbf571b9
 92	1094	7190592146092870	CMakeFiles/pertemuan2.dir/main.c.obj	ac400109607a24bc
-0	600	7192891401735182	CMakeFiles/pertemuan2.dir/point.c.obj	8ca884024ce8971f
-602	1508	7192891410723856	pertemuan2.exe	3ffa094a9e79d5cd
-23	469	7192892679533778	build.ninja	2c523d85e4a6138a
+545	2571	7192922571479272	CMakeFiles/pertemuan2.dir/point.c.obj	8ca884024ce8971f
+556	1451	7192923456261708	pertemuan2.exe	597946c21621ab37
+3	556	7192923447365601	CMakeFiles/pertemuan2.dir/garis.c.obj	deeea43b86ba4901
+23	469	7192925196467822	build.ninja	2c523d85e4a6138a
 3	2598	7192873778388970	CMakeFiles/pertemuan2.dir/gaji_pokok_3.c.obj	42b3789e8cff91bb
