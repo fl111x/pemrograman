@@ -1,9 +1,8 @@
 /*
-    Program: Assigment1.c
-    Name: Muhamad Yusron Noval
-    NIM: 2350081003
-    Class: A
-    Description: ...
+    Program: bonus.c
+    Author: 2350081003/Muhamad Yusron Noval
+    Date: 17/10/2023
+    Description: Program menghitung bonus staff dan nonstaff
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,6 +40,7 @@ int main()
     } else if(Staff < lamaBekerja) {
         if (umurStaff < 50) {
             printf("\n\n(Staff) Anda mendapatkan Bonus sebesar Rp.300.000\n\n");
+        
         } else {
             printf("\n\n(Staff) Anda mendapatkan Bonus sebesar Rp.500.000\n\n");
         }
@@ -52,9 +52,11 @@ int main()
     } else if(nonStaff > lamaBekerja) {
         if (umurNonStaff < 50) {
             printf("(nonStaff) Anda mendapatkan Bonus sebesar Rp.250.000\n\n");
+        
         } else {
             printf("(nonStaff) tidak ada data");
         }
+   
     } else {
         printf("Error\n\n");
     }
