@@ -1,8 +1,8 @@
 /*
-    Program: analisa1_2.c
+    Program: if2.c
     Author: 2350081004/Muhamad Yasir Noval
     Date: 17 Oktober 2023
-    Description: Program mencari nilai maksimum dengan menggunakan conditional bersarang
+    Description: Program mencari nilai maksimum dengan menggunakan conditional bersarang(nested)
 */
 
 #include <stdio.h>

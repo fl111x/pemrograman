@@ -49,8 +49,8 @@ cmake_ninja_workdir = E$:/Documents/pemrograman/yasir/algoritmaDanPemrograman/se
 
 build cmake_object_order_depends_target_pertemuan2: phony || CMakeFiles/pertemuan2.dir
 
-build CMakeFiles/pertemuan2.dir/segitiga.c.obj: C_COMPILER__pertemuan2_unscanned_Debug E$:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan2/segitiga.c || cmake_object_order_depends_target_pertemuan2
-  DEP_FILE = CMakeFiles\pertemuan2.dir\segitiga.c.obj.d
+build CMakeFiles/pertemuan2.dir/garis.c.obj: C_COMPILER__pertemuan2_unscanned_Debug E$:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan2/garis.c || cmake_object_order_depends_target_pertemuan2
+  DEP_FILE = CMakeFiles\pertemuan2.dir\garis.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\pertemuan2.dir
   OBJECT_FILE_DIR = CMakeFiles\pertemuan2.dir
@@ -63,7 +63,7 @@ build CMakeFiles/pertemuan2.dir/segitiga.c.obj: C_COMPILER__pertemuan2_unscanned
 #############################################
 # Link the executable pertemuan2.exe
 
-build pertemuan2.exe: C_EXECUTABLE_LINKER__pertemuan2_Debug CMakeFiles/pertemuan2.dir/segitiga.c.obj
+build pertemuan2.exe: C_EXECUTABLE_LINKER__pertemuan2_Debug CMakeFiles/pertemuan2.dir/garis.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pertemuan2.dir

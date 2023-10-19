@@ -23,7 +23,8 @@ int main() {
     printf("Input Jumlah Anak: ");
     scanf("%d", &anak);
 
-    if (anak <= 3) {
+    // menentukan usia anak jika anak kurang dari atau sama dengan tiga
+    if (anak == 3) {
         printf("Input Usia Anak pertama: ");
         scanf("%d", &usiaAnak1);
 
@@ -32,17 +33,71 @@ int main() {
 
         printf("Input Usia Anak Ketiga: ");
         scanf("%d", &usiaAnak3);
+
+        // menentukan jumlah anak yang diinputkan
+        if (usiaAnak1 <= 17) {
+            tjAnak1 = 700000;
+        } else {
+            tjAnak1 = 0;
+        }
+        if (usiaAnak2 <= 17) {
+            tjAnak2 = 700000;
+        } else {
+            tjAnak2 = 0;
+        }
+        if (usiaAnak3 <= 17) {
+            tjAnak3 = 700000;
+        } else {
+            tjAnak3 = 0;
+        }
+
+        tjAnak = tjAnak1 + tjAnak2 + tjAnak3;
+
+        printf("Tunjangan Anak = Rp.%ld + Rp.%ld + Rp.%ld = Rp.%ld\n", tjAnak1, tjAnak2, tjAnak3, tjAnak);
+    } else if (anak == 2) {
+        printf("Input Usia Anak pertama: ");
+        scanf("%d", &usiaAnak1);
+
+        printf("Input Usia Anak Kedua: ");
+        scanf("%d", &usiaAnak2);
+
+        // menentukan jumlah anak yang diinputkan
+        if (usiaAnak1 <= 17) {
+            tjAnak1 = 700000;
+        } else {
+            tjAnak1 = 0;
+        }
+        if (usiaAnak2 <= 17) {
+            tjAnak2 = 700000;
+        } else {
+            tjAnak2 = 0;
+        }
+
+        tjAnak = tjAnak1 + tjAnak2;
+
+        printf("Tunjangan Anak = Rp.%ld + Rp.%ld = Rp.%ld\n", tjAnak1, tjAnak2, tjAnak);
+    } else if (anak == 1) {
+        printf("Input Usia Anak pertama: ");
+        scanf("%d", &usiaAnak1);
+
+        // menentukan jumlah anak yang diinputkan
+        if (usiaAnak1 <= 17) {
+            tjAnak1 = 700000;
+        } else {
+            tjAnak1 = 0;
+        }
+
+        tjAnak = tjAnak1;
+
+        printf("Tunjangan Anak = Rp.%ld = Rp.%ld\n", tjAnak1, tjAnak);
     } else {
-        anak = anak;
+        tjAnak = 3 * 700000;
     }
 
+    // menentukan golongan yang diinputkan
     printf("Input Golongan: ");
     scanf("%d", &gol);
 
-    printf("Input Masa Kerja: ");
-    scanf("%d", &mk);
-
-    // menentukan golongan yang diinputkan
     if (gol == 1) {
         tjGol = 1000000;
     } else if (gol == 2) {
@@ -51,35 +106,23 @@ int main() {
         tjGol = 0;
     }
 
-    // menentukan jumlah anak yang diinputkan
-    if (anak <= 3) {
-        if (usiaAnak1 <= 17) {
-            tjAnak1 = 700000;
-        } else if (usiaAnak2 <= 17) {
-            tjAnak2 = 700000;
-        } else if (usiaAnak3 <= 17) {
-            tjAnak3 = 700000;
-        } else {
-            tjAnak = 0;
-        }
-    } else {
-        tjAnak = 3 * 700000;
-    }
-
     // menentukan masa kerja yang diinputkan
+    printf("Input Masa Kerja: ");
+    scanf("%d", &mk);
+
     if (mk < 5) {
         tjMk = 500000;
-    } else if (mk <= 5 && mk < 10) {
+    } else if (mk >= 5 && mk < 10) {
         tjMk = 1000000;
     } else {
         tjMk = 2000000;
     }
 
-    tjAnak = tjAnak1 + tjAnak2 + tjAnak3;
+    // menghitung gaji total
     gaTot = gaPok + tjAnak + tjGol + tjMk;
 
+    printf("Gaji Total = Rp.%ld + Rp.%ld + Rp.%ld + Rp.%ld\n", gaPok, tjAnak, tjGol, tjMk);
     printf("Gaji Total Rp.%ld", gaTot);
 
     return 0;
 }
-

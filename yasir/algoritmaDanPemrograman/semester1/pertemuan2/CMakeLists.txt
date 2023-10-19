@@ -4,4 +4,4 @@ project(pertemuan2 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(pertemuan2
-        segitiga.c)
+        garis.c)

@@ -1,5 +1,5 @@
 /*
-    Program: analisa1_1.c
+    Program: if1.c
     Author: 2350081004/Muhamad Yasir Noval
     Date: 17 Oktober 2023
     Description: Program mencari nilai maksimum

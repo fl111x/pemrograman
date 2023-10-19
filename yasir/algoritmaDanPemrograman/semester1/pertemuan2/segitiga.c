@@ -1,5 +1,5 @@
 /*
-    Program: gaji_pokok_2.c
+    Program: segitiga.c
     Author: 2350081004/Muhamad Yasir Noval
     Date: 17 Oktober 2023
     Description: Tugas untuk menentukan sebuah segitiga dapat

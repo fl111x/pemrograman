@@ -1,19 +1,34 @@
 /*
-    Program: Assigment1.c
-    Name: Muhamad Yusron Noval
-    NIM: 2350081003
-    Class: A
-    Description: ...
+    Program: segitiga.c
+    Author: 2350081003/Muhamad Yusron NOval
+    Date: 17/10/2023
+    Description: Tugas untuk menentukan sebuah segitiga menggunakan program
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main() 
 {
-    // Kamus
-    int a,b,c;
+    // KAMUS
+    int a, b, c;
 
-    // Algoritma
+    // ALGORITMA
+    printf("Masukkan nilai A: ");
+    scanf("%d", &a);
+
+    printf("Masukkan nilai B: ");
+    scanf("%d", &b);
+
+    printf("Masukkan nilai C: ");
+    scanf("%d", &c);
+
+    if (a > 0 && b > 0 && c > 0) {
+        printf("\n\nSebuah segitiga\n\n");
+
+    } else {
+        printf("\n\nBukan segitiga\n\n");
+    }
 
     return 0;
 }

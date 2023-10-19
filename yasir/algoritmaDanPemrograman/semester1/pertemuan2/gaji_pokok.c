@@ -42,7 +42,8 @@ int main() {
 
     gaTot = gaPok + tjAnak + tjGol;
 
-    printf("Gaji Total Rp.%ld", gaTot);
+    printf("Gaji Total = Rp.%ld + Rp.%ld + Rp.%ld\n", gaPok, tjAnak, tjGol);
+    printf("Gaji Total = Rp.%ld", gaTot);
 
     return 0;
 }
