@@ -7,20 +7,22 @@
 #include <stdio.h>
 #include <conio.h>
 
-typedef struct {
-	int abs, ord;
-}point;
+	typedef struct {
+		int abs, ord;
+	}point;
 
-	/*typedef struct {
-		point;
-	}garis;*/
+	typedef struct {
+		point p1, p2;
+	}garis;
 
 int main() {
 	//kamus
+		//titik point
 		point x1, y1, x2, y2, x3, y3, x4, y4;
-		//garis m1, m2;
-		int m1, m2;
-		
+		//garis 
+		garis g1, g2;
+		//gradien
+		double m1, m2;
 	//algoritma
 		//input
 		printf("masukan x1 absis :"); scanf("%d", &x1.abs);
@@ -32,10 +34,23 @@ int main() {
 		printf("masukan x4 absis :"); scanf ("%d", &x4.abs);
 		printf("masukan y4 ordinat :"); scanf("%d", &y4.ord);
 		
-		//menghitung gradien m
-		m1 = y2.ord - y1.ord/x2.abs - x1.abs;
+		//garis 1
+		g1.p1.abs = x1.abs;
+		g1.p1.ord = y1.ord;
+		g1.p2.abs = x2.abs;
+		g1.p2.ord = y2.ord;
 		
-		m2 = y4.ord - y3.ord/x4.abs -x3.abs;
+		//garis 2
+		g2.p1.abs = x3.abs;
+		g2.p1.ord = y3.ord;
+		g2.p2.abs = x4.abs;
+		g2.p2.ord = y4.ord;
+		
+		//menghitung gradien m garis 1
+		m1 = (g1.p2.ord - g1.p1.ord)/(g1.p2.abs - g1.p1.abs);
+		
+		//menghitung gradien m garis 2
+		m2 = (g2.p2.ord - g2.p1.ord)/(g2.p2.abs - g2.p1.abs);
 		
 		
 		

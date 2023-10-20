@@ -36,19 +36,19 @@ int main() {
 	}
 	
 	//anak
-	if (anak <= 3){
-		printf("masukan umur anak maksimal 17 tahun\n");
+	if (anak > 0){
+		printf("masukan umur anak maksimal 17 tahun, isi dengan 0 jika anak kurang dari 3""\n");
 		printf("masukan umur anak 1 :"); scanf("%d", &umur1);
 		printf("masukan umur anak 2 :"); scanf("%d", &umur2);
 		printf("masukan umur anak 3 :"); scanf("%d", &umur3);
 	}
 	
-	if (anak <= 3){
-		if (umur1 <= 17){
+	if (anak > 0){
+		if (umur1 <= 17 && umur1 > 0){
 			anak1 = 700000;
-		}if (umur2 <= 17){
+		}if (umur2 <= 17 && umur2 > 0){
 			anak2 = 700000;
-		}if (umur3 <= 17){
+		}if (umur3 <= 17 && umur3 > 0){
 			anak3 = 700000;
 		}else{
 			anak1, anak2, anak3 = 0;
@@ -57,9 +57,9 @@ int main() {
 	
 	tjanak = anak1 + anak2 + anak3;
 	
-	if (anak > 3){
+	/*if (anak > 3){
 		tjanak = 3*700000;
-	}
+	}*/
 	
 	//mk
 	if(mk < 5){
