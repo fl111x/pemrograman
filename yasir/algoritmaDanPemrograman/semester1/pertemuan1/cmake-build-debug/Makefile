@@ -272,6 +272,30 @@ limit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan1.dir\build.make CMakeFiles/pertemuan1.dir/limit.c.s
 .PHONY : limit.c.s
 
+operator_and_ekspresi/operator.obj: operator_and_ekspresi/operator.c.obj
+.PHONY : operator_and_ekspresi/operator.obj
+
+# target to build an object file
+operator_and_ekspresi/operator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan1.dir\build.make CMakeFiles/pertemuan1.dir/operator_and_ekspresi/operator.c.obj
+.PHONY : operator_and_ekspresi/operator.c.obj
+
+operator_and_ekspresi/operator.i: operator_and_ekspresi/operator.c.i
+.PHONY : operator_and_ekspresi/operator.i
+
+# target to preprocess a source file
+operator_and_ekspresi/operator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan1.dir\build.make CMakeFiles/pertemuan1.dir/operator_and_ekspresi/operator.c.i
+.PHONY : operator_and_ekspresi/operator.c.i
+
+operator_and_ekspresi/operator.s: operator_and_ekspresi/operator.c.s
+.PHONY : operator_and_ekspresi/operator.s
+
+# target to generate assembly for a file
+operator_and_ekspresi/operator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan1.dir\build.make CMakeFiles/pertemuan1.dir/operator_and_ekspresi/operator.c.s
+.PHONY : operator_and_ekspresi/operator.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -299,6 +323,9 @@ help:
 	@echo ... limit.obj
 	@echo ... limit.i
 	@echo ... limit.s
+	@echo ... operator_and_ekspresi/operator.obj
+	@echo ... operator_and_ekspresi/operator.i
+	@echo ... operator_and_ekspresi/operator.s
 .PHONY : help
 
 
