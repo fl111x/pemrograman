@@ -1,5 +1,5 @@
 /*
-    Program: for5.c
+    Program: loop_1.c
     Author: 2350081004/Muhamad Yasir Noval
     Date: 24 Oktober 2023
     Description: Progam menghitung deret dengan perulangan n kali

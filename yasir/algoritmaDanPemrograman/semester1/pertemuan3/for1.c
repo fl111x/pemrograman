@@ -25,7 +25,7 @@ int main() {
             bil = bil + 2;
         }
     } else {
-        printf("Angka tidak bole kurang dari atau sama dengan 0")
+        printf("Angka tidak boleh kurang dari atau sama dengan 0");
     }
 
     return 0;

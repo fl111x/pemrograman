@@ -4,4 +4,4 @@ project(pertemuan3 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(pertemuan3
-        belahKetupat.c)
+        main.c)
