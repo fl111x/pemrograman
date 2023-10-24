@@ -1,8 +1,7 @@
 /*
     Program: loop_1.c
-    Name: Muhamad Yusron Noval
-    NIM: 2350081003
-    Class: A
+    Author: 2350081003/Muhamad Yusron Noval
+    Date: 24/10/2023
     Description: Perulangan menggunakan for loop
 */
 #include <stdio.h>
