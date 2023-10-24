@@ -2,7 +2,7 @@
     Program: loop_1.c
     Author: 2350081004/Muhamad Yasir Noval
     Date: 24 Oktober 2023
-    Description: Progam menghitung deret dengan perulangan n kali
+    Description: Progam menghitung deret dengan perulangan for sebanyak n kali
 */
 
 #include <stdio.h>

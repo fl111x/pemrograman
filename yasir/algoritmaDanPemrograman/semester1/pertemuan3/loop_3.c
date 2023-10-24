@@ -1,8 +1,8 @@
 /**
  * Program: loop_3.c
  * Author: 2350081004/Muhamad Yasir Noval
- * Date: ...............
- * Description: ...............
+ * Date: 24 Oktober 2023
+ * Description: Progam menghitung deret dengan perulangan do while sebanyak n kali
  */
 
 #include <stdio.h>
