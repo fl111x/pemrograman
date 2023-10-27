@@ -1,5 +1,5 @@
 /*
-    Program: for2.c
+    Program: jumcacah.c
     Author: 2350081003/Muhamad Yusron Noval
     Date: 24/10/2023
     Description: Menghitung bilangan pencacah menggunakan for loop
