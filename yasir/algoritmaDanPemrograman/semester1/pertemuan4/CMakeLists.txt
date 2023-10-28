@@ -4,4 +4,6 @@ project(pertemuan4 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(pertemuan4
-        proc_2.c)
+        proc_2.c
+        bilanganTerbilang.c
+)
