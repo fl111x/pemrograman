@@ -9,11 +9,11 @@ void terbilang(long long int x);
 
 int main() {
     // KAMUS UTAMA
-    long jumUang;
+    long long int jumUang;
 
     // ALGORITMA UTAMA
     printf("Masukan Jumlah Uang : ");
-    scanf("%ld", &jumUang);
+    scanf("%lld", &jumUang);
     terbilang(jumUang);
     printf("Rupiah");
 }
@@ -74,6 +74,6 @@ void terbilang(long long int x) {
     } else if (x >= 1000000000000 && x <= 999999999999999) {
         terbilang(x / 1000000000000);
         printf("Triliun ");
-        printf(x % 1000000000000);
+        terbilang(x % 1000000000000);
     }
 }

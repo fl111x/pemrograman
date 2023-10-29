@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pertemuan4.dir/bilanganTerbilang.c.obj"
-  "CMakeFiles/pertemuan4.dir/bilanganTerbilang.c.obj.d"
   "CMakeFiles/pertemuan4.dir/proc_2.c.obj"
   "CMakeFiles/pertemuan4.dir/proc_2.c.obj.d"
   "libpertemuan4.dll.a"
