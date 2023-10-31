@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan4/cmake-build-debug",
-		"source" : "E:/Documents/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan4"
+		"build" : "D:/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan4/cmake-build-debug",
+		"source" : "D:/pemrograman/yasir/algoritmaDanPemrograman/semester1/pertemuan4"
 	},
 	"version" : 
 	{
