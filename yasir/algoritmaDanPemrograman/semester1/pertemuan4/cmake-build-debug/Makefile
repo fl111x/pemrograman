@@ -128,30 +128,6 @@ pertemuan4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan4.dir\build.make CMakeFiles/pertemuan4.dir/build
 .PHONY : pertemuan4/fast
 
-bilanganTerbilang.obj: bilanganTerbilang.c.obj
-.PHONY : bilanganTerbilang.obj
-
-# target to build an object file
-bilanganTerbilang.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan4.dir\build.make CMakeFiles/pertemuan4.dir/bilanganTerbilang.c.obj
-.PHONY : bilanganTerbilang.c.obj
-
-bilanganTerbilang.i: bilanganTerbilang.c.i
-.PHONY : bilanganTerbilang.i
-
-# target to preprocess a source file
-bilanganTerbilang.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan4.dir\build.make CMakeFiles/pertemuan4.dir/bilanganTerbilang.c.i
-.PHONY : bilanganTerbilang.c.i
-
-bilanganTerbilang.s: bilanganTerbilang.c.s
-.PHONY : bilanganTerbilang.s
-
-# target to generate assembly for a file
-bilanganTerbilang.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pertemuan4.dir\build.make CMakeFiles/pertemuan4.dir/bilanganTerbilang.c.s
-.PHONY : bilanganTerbilang.c.s
-
 proc_2.obj: proc_2.c.obj
 .PHONY : proc_2.obj
 
@@ -185,9 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... pertemuan4
-	@echo ... bilanganTerbilang.obj
-	@echo ... bilanganTerbilang.i
-	@echo ... bilanganTerbilang.s
 	@echo ... proc_2.obj
 	@echo ... proc_2.i
 	@echo ... proc_2.s
